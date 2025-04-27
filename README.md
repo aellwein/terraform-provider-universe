@@ -126,8 +126,8 @@ output "hp_created" {
 }
 ```
 
-- When you run `terraform apply` the resource will be created / updated
-- When you run `terraform destroy` the resource will be destroyed
+- When you run `TERRAFORM_UNIVERSE_RESOURCETYPES='json_file' TERRAFORM_LINUX_RESOURCETYPES='json_file' terraform apply` the resource will be created / updated
+- When you run `TERRAFORM_UNIVERSE_RESOURCETYPES='json_file' TERRAFORM_LINUX_RESOURCETYPES='json_file' terraform destroy` the resource will be destroyed
 
 ### Attributes
 
